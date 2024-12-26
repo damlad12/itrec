@@ -1,0 +1,15 @@
+2024-12-14 17:02:25,929 - MixGCF - INFO - ### model configuration ###
+2024-12-14 17:02:25,930 - MixGCF - INFO - training.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k/train_set.txt
+2024-12-14 17:02:25,930 - MixGCF - INFO - test.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k/test_set.txt
+2024-12-14 17:02:25,930 - MixGCF - INFO - model.name=MixGCF
+2024-12-14 17:02:25,930 - MixGCF - INFO - model.type=graph
+2024-12-14 17:02:25,930 - MixGCF - INFO - item.ranking=-topN 10,20
+2024-12-14 17:02:25,930 - MixGCF - INFO - embedding.size=64
+2024-12-14 17:02:25,930 - MixGCF - INFO - num.max.epoch=100
+2024-12-14 17:02:25,930 - MixGCF - INFO - batch_size=2048
+2024-12-14 17:02:25,930 - MixGCF - INFO - learnRate=0.001
+2024-12-14 17:02:25,930 - MixGCF - INFO - reg.lambda=0.0001
+2024-12-14 17:02:25,930 - MixGCF - INFO - MixGCF=-n_layer 3 -n_negs 64
+2024-12-14 17:02:25,931 - MixGCF - INFO - output.setup=-dir ./results/
+2024-12-14 17:02:25,931 - MixGCF - INFO - valid.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k/valid_set.txt
+2024-12-14 17:02:25,931 - MixGCF - INFO - aug_type=0

@@ -1,0 +1,16 @@
+2024-12-24 04:07:24,425 - MF - INFO - ### model configuration ###
+2024-12-24 04:07:24,426 - MF - INFO - training.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k_data_generated_for_RecRanker_training_and_testing/train_set.txt
+2024-12-24 04:07:24,426 - MF - INFO - test.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k_data_generated_for_RecRanker_training_and_testing/test_set.txt
+2024-12-24 04:07:24,426 - MF - INFO - model.name=MF
+2024-12-24 04:07:24,427 - MF - INFO - model.type=graph
+2024-12-24 04:07:24,427 - MF - INFO - item.ranking=-topN 5,10
+2024-12-24 04:07:24,427 - MF - INFO - embedding.size=64
+2024-12-24 04:07:24,427 - MF - INFO - num.max.epoch=100
+2024-12-24 04:07:24,427 - MF - INFO - batch_size=2048
+2024-12-24 04:07:24,427 - MF - INFO - learnRate=0.001
+2024-12-24 04:07:24,427 - MF - INFO - reg.lambda=0.0001
+2024-12-24 04:07:24,427 - MF - INFO - output.setup=-dir ./results/
+2024-12-24 04:07:24,427 - MF - INFO - valid.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k_data_generated_for_RecRanker_training_and_testing/valid_set.txt
+2024-12-24 04:07:24,427 - MF - INFO - aug_type=0
+2024-12-24 04:08:07,854 - MF - INFO - ###Evaluation Results###
+2024-12-24 04:08:07,854 - MF - INFO - ['Top 5\n', 'Hit Ratio:0.0712\n', 'Precision:0.01424\n', 'Recall:0.0712\n', 'NDCG:0.04372\n', 'Top 10\n', 'Hit Ratio:0.12513\n', 'Precision:0.01251\n', 'Recall:0.12513\n', 'NDCG:0.06109\n']

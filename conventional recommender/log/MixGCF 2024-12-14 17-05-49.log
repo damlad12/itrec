@@ -1,0 +1,17 @@
+2024-12-14 17:05:50,133 - MixGCF - INFO - ### model configuration ###
+2024-12-14 17:05:50,134 - MixGCF - INFO - training.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k/train_set.txt
+2024-12-14 17:05:50,134 - MixGCF - INFO - test.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k/test_set.txt
+2024-12-14 17:05:50,135 - MixGCF - INFO - model.name=MixGCF
+2024-12-14 17:05:50,135 - MixGCF - INFO - model.type=graph
+2024-12-14 17:05:50,135 - MixGCF - INFO - item.ranking=-topN 10,20
+2024-12-14 17:05:50,135 - MixGCF - INFO - embedding.size=64
+2024-12-14 17:05:50,135 - MixGCF - INFO - num.max.epoch=50
+2024-12-14 17:05:50,135 - MixGCF - INFO - batch_size=2048
+2024-12-14 17:05:50,135 - MixGCF - INFO - learnRate=0.001
+2024-12-14 17:05:50,135 - MixGCF - INFO - reg.lambda=0.0001
+2024-12-14 17:05:50,135 - MixGCF - INFO - MixGCF=-n_layer 3 -n_negs 64
+2024-12-14 17:05:50,135 - MixGCF - INFO - output.setup=-dir ./results/
+2024-12-14 17:05:50,135 - MixGCF - INFO - valid.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k/valid_set.txt
+2024-12-14 17:05:50,135 - MixGCF - INFO - aug_type=0
+2024-12-14 17:10:19,771 - MixGCF - INFO - ###Evaluation Results###
+2024-12-14 17:10:19,771 - MixGCF - INFO - ['Top 10\n', 'Hit Ratio:0.11327\n', 'Precision:0.01133\n', 'Recall:0.11327\n', 'NDCG:0.05684\n', 'Top 20\n', 'Hit Ratio:0.18015\n', 'Precision:0.00901\n', 'Recall:0.18015\n', 'NDCG:0.07357\n']

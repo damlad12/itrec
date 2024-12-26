@@ -1,0 +1,16 @@
+2024-12-11 17:21:48,781 - MF - INFO - ### model configuration ###
+2024-12-11 17:21:48,782 - MF - INFO - training.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k/train_set.txt
+2024-12-11 17:21:48,782 - MF - INFO - test.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k/test_set.txt
+2024-12-11 17:21:48,783 - MF - INFO - model.name=MF
+2024-12-11 17:21:48,783 - MF - INFO - model.type=graph
+2024-12-11 17:21:48,783 - MF - INFO - item.ranking=-topN 10,20
+2024-12-11 17:21:48,783 - MF - INFO - embedding.size=64
+2024-12-11 17:21:48,783 - MF - INFO - num.max.epoch=100
+2024-12-11 17:21:48,783 - MF - INFO - batch_size=2048
+2024-12-11 17:21:48,783 - MF - INFO - learnRate=0.001
+2024-12-11 17:21:48,783 - MF - INFO - reg.lambda=0.0001
+2024-12-11 17:21:48,783 - MF - INFO - output.setup=-dir ./results/
+2024-12-11 17:21:48,783 - MF - INFO - valid.set=/content/drive/MyDrive/EC523DL/RecRanker/RecRanker/conventional recommender/dataset/ml-100k/valid_set.txt
+2024-12-11 17:21:48,783 - MF - INFO - aug_type=0
+2024-12-11 17:22:29,834 - MF - INFO - ###Evaluation Results###
+2024-12-11 17:22:29,834 - MF - INFO - ['Top 10\n', 'Hit Ratio:0.12729\n', 'Precision:0.01273\n', 'Recall:0.12729\n', 'NDCG:0.06216\n', 'Top 20\n', 'Hit Ratio:0.20496\n', 'Precision:0.01025\n', 'Recall:0.20496\n', 'NDCG:0.08169\n']
