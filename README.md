@@ -1,8 +1,4 @@
 # Instruction-Tuned and Resource-Efficient Top-k Recommendation Framework using TALLRec, LoRA, and RecRanker (ITREK)
-
-**Authors**: Damla Duendar, Mohammad Merati, Karl Naba, Stan K. Lee  
-**Institution**: Boston University, ECE  
-
 ---
 
 ## 1. Abstract
